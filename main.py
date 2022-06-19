@@ -9,7 +9,7 @@ print(datetime.now().hour)
 print(datetime.now().minute)
 
 while len(contatos) >= 1:
-    sendwhatmsg(contatos[0], 'E ai LGBTQIA+', 
+    sendwhatmsg(contatos[0], 'Teste de bot', 
     datetime.now().hour, datetime.now().minute+1, tab_close= True)
     del contatos[0]
     sleep(15)
